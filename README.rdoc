@@ -2,6 +2,14 @@
 
 A rails plugin to backup Mysql to Amazon S3. You're looking at a monthly spend of four cents. So pony up you cheap bastard, and store your backups on S3
 
+== This gem is unmaintained
+
+I don't use this gem anymore so cannot maintain it. There is a newer, shinier alternative called db2fog which supports many different backends, not just S3, and doesn't rely on the aws-s3 gem which is a bit crufty:
+
+https://github.com/yob/db2fog
+
+You should use that rather than this.
+
 == Usage
 
   # In config/environment.rb
